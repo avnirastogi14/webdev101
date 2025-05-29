@@ -1,0 +1,62 @@
+
+Web Architecture — 3 Core Aspects:
+
+-------------------- 1. Client -------------------------
+
+* The **seeker/requester** – usually a **browser** used by a human.
+* Sends requests to the server.
+* Receives and displays the response (webpage).
+* Examples: Chrome, Firefox, Edge (all acting as clients).
+
+-------------------- 2. Server ---------------------------
+
+* The **provider/responder** – where websites or web applications are hosted.
+* Handles incoming client requests.
+* Processes data, interacts with databases, and sends back the appropriate response (HTML, JSON, etc.).
+* Examples: Apache, Nginx, Node.js server, Django server.
+
+-------------------- 3. Browser -------------------------
+* A medium/interface to send requests and view responses.
+* Renders HTML, CSS, and executes JavaScript.
+* Developer tools (Inspect) allow us to analyze page structure and behavior.
+
+## Inspect Tool Breakdown:
+a. HTML Elements
+* Handle the structure and content of the webpage.
+* Organized as a DOM tree (Document Object Model).
+* Tags like <div>, <p>, <h1>, <img> define what appears on the page.
+
+b. CSS (Cascading Style Sheets)
+* Controls how the content appears (color, font, layout).
+* Can be inline, internal (<style>), or external (.css file).
+* Affects user experience and responsiveness.
+
+c. JavaScript (JS)
+* Adds interactivity and logic to webpages.
+* Client-side scripting – runs in the browser.
+* Examples: form validation, animations, API calls, dynamic updates.
+
+------------------------------------------------------------------------------------
+--------------------- Client-Server Interaction: Backend Role --------------------
+
+---Backend Technologies (run on the server):
+* Languages: Python, JavaScript (Node.js), PHP, Ruby, Java
+* Frameworks: Django (Python), Express (Node.js), Laravel (PHP), Spring Boot (Java)
+* Responsibilities:
+  -> Routing (handling different URLs)
+  -> Data handling (fetching/storing in DB)
+  -> Authentication & Authorization
+  -> Business logic
+
+--------------------- How It All Connects: ------------------------------------------
+1. Client sends request → through browser (e.g., clicking a link or submitting a form).
+2. Server processes the request → possibly queries a database, applies logic.
+3. Server sends back a response → usually in the form of HTML/CSS/JS or JSON for APIs.
+4. Browser renders content → user sees the updated page or data.
+
+--------------------- Key Terms: ------------------------------------------
+* Static Website: Only HTML/CSS, same for every visitor.
+* Dynamic Website: HTML is generated based on user or server data.
+* Frontend vs Backend:
+  -> Frontend: What the user sees and interacts with (HTML, CSS, JS).
+  -> Backend: Behind-the-scenes logic, server operations, database handling.
