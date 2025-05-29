@@ -1,3 +1,3 @@
 # webdev101
 tracking webdev progress 
-###_scratch to adv_
+_scratch to adv_
