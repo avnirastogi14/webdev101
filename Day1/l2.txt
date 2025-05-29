@@ -1,0 +1,18 @@
+Tags and Structure of HTML
+
+- HTML (hyper text markup language):
+    two types of Tags
+        - self closing Tags
+            -> eg: Meta Tag
+        - pair Tags
+            -> had both opening and closing Tags
+            -> eg: </title> pair
+                - removing one (closing or starting, takes off the pair, entirely)
+
+
+# The title Tag
+-> not just title
+-> the title on the tabs.
+    (dynamic) // static for 1 webpage, but changes with change in webpage 
+    (used by search engines)
+    (describes the content of the page) 
