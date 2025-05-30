@@ -16,3 +16,11 @@ Tags and Structure of HTML
     (dynamic) // static for 1 webpage, but changes with change in webpage 
     (used by search engines)
     (describes the content of the page) 
+
+## Meta Tag
+-> meta data
+-> the know how and description of the webpage.
+* imp tag set 
+
+# The body tag
+-> content on the webpage is stored within the body tag.
