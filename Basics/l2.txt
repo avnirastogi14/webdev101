@@ -14,7 +14,7 @@ Tags and Structure of HTML
 -> not just title
 -> the title on the tabs.
     (dynamic) // static for 1 webpage, but changes with change in webpage 
-    (used by search engines)
+    (used by search engines-- to parse)
     (describes the content of the page) 
 
 ## Meta Tag
@@ -24,3 +24,9 @@ Tags and Structure of HTML
 
 # The body tag
 -> content on the webpage is stored within the body tag.
+
+# the script Tag
+-> could be placed before or after the body tag.
+
+** key value pairs are used throughout in the html page.
+--> eg: lang = "en" 
