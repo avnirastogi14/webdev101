@@ -1,12 +1,58 @@
--> Headings
-allows to put up headings ranging from type 1 to 6. (precedence order)
-H1 being the most bold and largest in size. 
+# HTML NOTES
 
--> Linking with the style sheet.
-Syntax:
-<title>
-    :
-    // req of title tag
-    <link rel="stylesheet" href="lorem.css">
-    :
-</title>
+• <!DOCTYPE html> declares the document type and version of HTML (HTML5 here).
+• <html lang="en"> defines the root of the HTML document with English as the language.
+• <head> contains metadata and links like stylesheets and page title.
+• <meta charset="UTF-8"> sets character encoding to UTF-8.
+• <meta name="viewport" content="width=device-width, initial-scale=1.0"> makes the website responsive on different screen sizes.
+• <title> sets the name of the tab or page title.
+• <link rel="stylesheet" href="style.css"> links external CSS file.
+• <body> contains all visible page content.
+• <h1> is the main heading. In this file, it's used with inline style to apply background color.
+• <h2> is a subheading. Used to separate bookmark sections.
+• <ul> creates an unordered list.
+• <li> is a list item inside the <ul>.
+• <a href="url" target="_blank">Text</a> creates a clickable link that opens in a new tab using target="_blank".
+
+# CSS Notes:
+
+→ body
+• This targets the whole webpage area.
+• Common attributes:
+    • font-family: sets the font style for text (e.g., Arial, sans-serif).
+    • background-color: sets the background color of the page.
+    • color: sets the default text color.
+    • margin: space outside the content (set to 0 here).
+    • padding: space inside the content area (20px used here for breathing room).
+
+→ headings
+• Common attributes used:
+    • text-align: centers the text.
+    • padding: space inside the h1 box.
+    • color: sets the font color.
+    • background-color: sets the background (also done inline in HTML here).
+    • border-radius: rounds the corners of the heading box.
+    • margin-bottom: space below the heading to separate from content.
+
+→ ul
+• Targets unordered lists.
+• Common attributes used:
+    • list-style-type: changes the bullet style (set to none here to remove bullets).
+    • padding-left: spacing from the left (set to 0 here).
+
+→ li
+• Targets list items inside ul.
+• Common attributes:
+    • margin: vertical spacing between list items (10px used here).
+
+→ a
+• Targets all hyperlinks.
+• Common attributes used:
+    • text-decoration: removes underline (set to none).
+    • color: sets the text color.
+    • font-weight: makes text bold.
+    • padding: space inside the link box.
+    • background-color: sets a light background for the link.
+    • border-radius: rounds the link box edges.
+    • display: inline-block: allows padding and background to wrap properly.
+    • transition: smooth changes when hovering.
