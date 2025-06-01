@@ -1,0 +1,32 @@
+HTML Basics – Headings, Paragraphs, and Text Formatting
+
+1. Headings
+   HTML supports six levels of headings:
+
+<h1> to <h6>  
+- <h1> is the largest, <h6> is the smallest.
+
+2. Paragraphs and Line Breaks
+
+<p> defines a paragraph.  
+<br> inserts a line break.  
+<hr> creates a horizontal rule to separate content.
+
+3. Text Alignment using Inline CSS
+
+<p style="text-align: center;">...</p>  
+<p style="text-align: right;">...</p>  
+<p style="text-align: left;">...</p>  
+<p style="text-align: justify;">...</p>
+
+4. Text Formatting Tags <strong> makes text bold <em> italicizes text <u> or <ins> underlines text <mark> highlights text <small> displays smaller text <del> shows deleted or strikethrough text <sub> creates subscript (example: 2<sub>3</sub>) <sup> creates superscript (example: 2<sup>3</sup>) <code> displays inline code snippets
+
+5. Syntax Display
+   To show HTML tags in plain text use the <code> tag:
+   Example: <code>\<tag></code>
+
+Note:
+Always properly nest tags.
+Correct: <p><strong>Bold text</strong></p>
+Incorrect: <p><strong>Bold text</p></strong>
+

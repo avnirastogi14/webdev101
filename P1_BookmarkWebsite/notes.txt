@@ -1,0 +1,3 @@
+-> Headings
+allows to put up headings ranging from type 1 to 6. (precedence order)
+H1 being the most bold and largest in size. 
