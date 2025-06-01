@@ -2,31 +2,136 @@ HTML Basics – Headings, Paragraphs, and Text Formatting
 
 1. Headings
    HTML supports six levels of headings:
+   <h1> to <h6>  
+   - <h1> is the largest, <h6> is the smallest.
 
-<h1> to <h6>  
-- <h1> is the largest, <h6> is the smallest.
+2. Paragraphs, Line Breaks, and Horizontal Rules
 
-2. Paragraphs and Line Breaks
+   <p> defines a paragraph.
+   <br> inserts a line break.
+   <hr> creates a horizontal rule to separate content.
 
-<p> defines a paragraph.  
-<br> inserts a line break.  
-<hr> creates a horizontal rule to separate content.
+   Example:
+   This is text without any paragraph tag. It's still valid but unstructured.
 
 3. Text Alignment using Inline CSS
 
-<p style="text-align: center;">...</p>  
-<p style="text-align: right;">...</p>  
-<p style="text-align: left;">...</p>  
-<p style="text-align: justify;">...</p>
+   <p style="text-align: center;">...</p>       → Center aligned
+   <p style="text-align: right;">...</p>        → Right aligned
+   <p style="text-align: left;">...</p>         → Left aligned
+   <p style="text-align: justify;">...</p>      → Justified (both sides)
 
-4. Text Formatting Tags <strong> makes text bold <em> italicizes text <u> or <ins> underlines text <mark> highlights text <small> displays smaller text <del> shows deleted or strikethrough text <sub> creates subscript (example: 2<sub>3</sub>) <sup> creates superscript (example: 2<sup>3</sup>) <code> displays inline code snippets
+4. Text Formatting Tags
+
+   <strong>    → Bold text
+   <em>        → Italicized text
+   <u>         → Underlined text
+   <ins>       → Inserted text (also underlined by default)
+   <mark>      → Highlighted text
+   <small>     → Smaller text
+   <del>       → Deleted (strikethrough) text
+   <sub>       → Subscript text (e.g. 2<sub>3</sub>)
+   <sup>       → Superscript text (e.g. 2<sup>3</sup>)
+   <code>      → Inline code snippet
+
+   NOTE: Always **properly nest tags**.
+   Correct: <p><strong>Bold text</strong></p>
+   Incorrect: <p><strong>Bold text</p></strong>
 
 5. Syntax Display
-   To show HTML tags in plain text use the <code> tag:
-   Example: <code>\<tag></code>
 
-Note:
-Always properly nest tags.
-Correct: <p><strong>Bold text</strong></p>
-Incorrect: <p><strong>Bold text</p></strong>
+   To show HTML tags as plain text on a webpage (not rendered as actual HTML),
+   use the <code> tag:
 
+   Example: <code>&lt;h1&gt;Heading&lt;/h1&gt;</code>
+
+6. Dummy Text (Lorem Ipsum)
+
+   Shortcut: lorem# → Generates dummy text with # number of words
+   Example: lorem50 generates 50 words of filler text.
+
+7. Inline Styling (Style inside HTML tags)
+
+   Syntax: 
+   <tag style="property: value; property2: value2;">Content</tag>
+
+   Example: 
+   <p style="background-color: burlywood;">This paragraph has a background color.</p>
+
+8. External CSS Styling (Separate file for styles)
+
+   Steps:
+   1. Create a CSS file (e.g., styles.css)
+   2. Link it in the <head> using:
+      <link rel="stylesheet" href="styles.css">
+
+   Example (styles.css):
+   p {
+       font-size: 16px;
+       color: navy;
+   }
+
+9. Lists
+
+   - Unordered List (bullets): 
+     <ul>
+       <li>Item</li>
+     </ul>
+
+   - Ordered List (numbers/letters):
+     <ol>
+       <li>Item</li>
+     </ol>
+
+   - Description List (terms & definitions):
+     <dl>
+       <dt>Term</dt>
+       <dd>Definition</dd>
+     </dl>
+
+   - Nested Lists (list inside another list):
+     <ul>
+       <li>Parent Item
+         <ul><li>Child Item</li></ul>
+       </li>
+     </ul>
+
+10. Styling Lists Inline
+
+   Example:
+   <ul style="list-style-type: square; color: blue;">
+     <li>Styled Item</li>
+   </ul>
+
+   <ol style="list-style-type: upper-alpha; color: green;">
+     <li>Styled Ordered Item</li>
+   </ol>
+
+   <dl style="color: red;">
+     <dt>Term</dt>
+     <dd>Description</dd>
+   </dl>
+
+11. Styling Nested Lists
+
+   Outer List:
+   <ul style="list-style-type: circle; color: purple;">
+     <li>Outer
+       <ul style="list-style-type: disc; color: orange;">
+         <li>Inner</li>
+       </ul>
+     </li>
+   </ul>
+
+   Mixed Nested:
+   <ol style="list-style-type: lower-roman; color: teal;">
+     <li>Nested Roman</li>
+   </ol>
+
+12. Links and Anchors
+
+   Syntax:
+   <a href="https://example.com" target="_blank">Visit Example</a>
+
+   - Use the <a> tag to create hyperlinks.
+   - Use `target="_blank"` to open in a new tab.

@@ -1,3 +1,12 @@
 -> Headings
 allows to put up headings ranging from type 1 to 6. (precedence order)
 H1 being the most bold and largest in size. 
+
+-> Linking with the style sheet.
+Syntax:
+<title>
+    :
+    // req of title tag
+    <link rel="stylesheet" href="lorem.css">
+    :
+</title>
