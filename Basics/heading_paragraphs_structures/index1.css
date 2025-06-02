@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #2c3e50;
+    padding: 40px;
+    line-height: 1.8;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 1.05rem;
+    background: #fff;
+    padding: 14px 18px;
+    border-left: 4px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+ul, ol {
+    background: #fff;
+    border-left: 5px solid #007acc;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+ul li, ol li {
+    margin-bottom: 12px;
+    padding-left: 6px;
+}
+
+dl {
+    background: #fff;
+    padding: 20px;
+    margin: 30px 0;
+    border-left: 5px solid #007acc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1a1a1a;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+code {
+    background-color: #e8f1fa;
+    color: #1a1a1a;
+    padding: 2px 6px;
+    font-family: 'Courier New', monospace;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+pre code {
+    display: block;
+    padding: 16px;
+    margin: 20px 0;
+    overflow-x: auto;
+    background: #e8f1fa;
+    border-left: 5px solid #007acc;
+    border-radius: 6px;
+}
+
+a {
+    color: #007acc;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #005b99;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+img[style*="border"] {
+    border: 3px solid #444;
+}
+
+figure {
+    margin: 30px auto;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+hr {
+    margin: 50px auto;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 90%;
+}
+
+p[style*="background-color"] {
+    padding: 16px;
+    border-radius: 6px;
+    color: #1a1a1a;
+}
