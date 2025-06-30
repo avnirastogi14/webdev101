@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h3>Tables</h3>
+    <hr>
+    <p>Tables are used to display data in a structured format. They consist of rows and columns, where each cell can contain text, numbers, or other elements.</p>
+    <p>In HTML, tables are created using the <code>&lt;table&gt</code> element, with rows defined by the <code>&lt;tr&gt;</code> element and cells defined by the <code>&lt;td&gt;</code> element for data cells or <code>&lt;th&gt;</code> for header cells.</p>
+    <p>Here's a simple example of a table:</p>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+    </table>
+    <p>In this example, the first row contains headers, while the subsequent rows contain data cells. The <code>border</code> attribute is used to add a border around the table and its cells.</p>
+    <hr>
+    <p>Tables can also include attributes like <code>colspan</code> and <code>rowspan</code> to merge cells across columns or rows, respectively. For example:</p>
+    <table border="1">
+        <tr>
+            <th colspan="2">Merged Header</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Merged Cell</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+    </table>
+    <p>In this example, the first header spans two columns, and the first cell in the second row spans two rows.</p>
+    <p>Tables can be styled using CSS to improve their appearance, such as adding padding, changing background colors, or adjusting borders.</p>
+    <hr>
+    <h4>Table of Images</h4>
+    <table border="1">
+        <tr>
+            <td><img src="https://via.placeholder.com/150" alt="Image 1"></td>
+            <td><img src="https://via.placeholder.com/150" alt="Image 2"></td>
+            <td><img src="https://via.placeholder.com/150" alt="Image 3"></td>
+        </tr>
+        <tr>
+            <td>Image 1</td>
+            <td>Image 2</td>
+            <td>Image 3</td>
+        </tr>
+    </table>
+    <hr>
+    <p>Tables may also include links-</p>
+    <table border="1">
+        <tr>
+            <th>Link</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.example.com">Example Link</a></td>
+            <td>This is an example link.</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.anotherexample.com">Another Example Link</a></td>
+            <td>This is another example link.</td>
+        </tr>
+    </table>
+    <hr>
+    <a href="styled_tbl.html">Click Here to Style Tables</a>
+</body>
+</html>
