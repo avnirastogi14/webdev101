@@ -1,0 +1,48 @@
+.t1 table
+{
+    width: 100%;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #d8a1a1;
+    border: 1px solid #863131;
+    padding: 10px;
+}
+
+.t1 th, .t1 td
+{
+    padding: 10px;
+    border: 1px solid #863131;
+    text-align: center;
+}
+
+.t2 table
+{
+    width: 100%;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #a1d8d8;
+    border: 1px solid #318686;
+    padding: 10px;
+}
+
+.t2 th, .t2 td
+{
+    padding: 10px;
+    border: 1px solid #318686;
+    text-align: center;
+}
+
+.t2 th
+{
+    background-color: #317a7a;
+    color: rgb(29, 3, 3);
+    font-family: Arial, sans-serif;
+}
+
+.t2 tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+    color:rgb(71, 37, 37)
+}
